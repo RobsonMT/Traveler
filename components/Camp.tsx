@@ -16,9 +16,7 @@ const CampSite = ({
   peopleJoined,
 }: CampProps) => {
   return (
-    <div
-      className={`h-full w-full min-w-[1100px] rounded-5xl ${backgroundImage}`}
-    >
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage}`}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
@@ -84,7 +82,7 @@ const Camp = () => {
           <p className="regular-14 xl:regular-16 mt-5 text-white">
             Starting from the anxiety of the climbers when visiting a new
             climbing location, the possibility of getting lost is very large.
-            That's why we are here for those of you who want to start an
+            That s why we are here for those of you who want to start an
             adventure
           </p>
           <Image
