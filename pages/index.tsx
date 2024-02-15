@@ -17,17 +17,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <html lang="en">
-        <Navbar />
-        <main className="relative overflow-hidden">
-          <Hero />
-        </main>
-        <Camp />
-        <Guide />
-        <Features />
-        <GetApp />
-        <Footer />
-      </html>
+
+      <Navbar />
+      <main className="relative overflow-hidden">
+        <Hero />
+      </main>
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+      <Footer />
     </>
   );
 }
