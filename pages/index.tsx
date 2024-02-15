@@ -1,4 +1,10 @@
-import Layout from "@/components/Layout";
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import Footer from "@/components/Footer";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import React from "react";
 
@@ -12,9 +18,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <html lang="en">
-        <Layout>
-          <h1>Hello world</h1>
-        </Layout>
+        <Navbar />
+        <main className="relative overflow-hidden">
+          <Hero />
+        </main>
+        <Camp />
+        <Guide />
+        <Features />
+        <GetApp />
+        <Footer />
       </html>
     </>
   );
