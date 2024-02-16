@@ -1,4 +1,4 @@
-import { PEOPLE_URL } from "@/pages/constants";
+import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -16,7 +16,9 @@ const CampSite = ({
   peopleJoined,
 }: CampProps) => {
   return (
-    <div className={`h-full w-full min-w-[1100px] ${backgroundImage}`}>
+    <div
+      className={`h-full w-full min-w-[1100px] 2xl:rounded-5xl ${backgroundImage}`}
+    >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">

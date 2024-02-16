@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import Button from "./Button";
 
 const Hero = () => {
@@ -10,7 +10,6 @@ const Hero = () => {
     >
       <div className="hero-map" />
 
-      {/* left */}
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
           src="/camp.svg"

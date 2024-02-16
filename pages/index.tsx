@@ -15,9 +15,8 @@ export default function Home() {
         <title>Travel</title>
         <meta name="description" content="Travel UI/UX App for Camping" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/camp.svg" />
       </Head>
-
       <Navbar />
       <main className="relative overflow-hidden">
         <Hero />
